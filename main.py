@@ -13,8 +13,8 @@ from email.message import EmailMessage
 
 
 def log():
-    username = 'apravin2@illinois.edu'
-    password = 'warriorX_9901TiNy201119'
+    username = '********'
+    password = '********'
     chrome_options = Options()
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
     driver.get("https://smart.physics.illinois.edu/Course/Calendar?enrollmentID=126787")
@@ -36,9 +36,9 @@ def log():
 
 
 def send_email():
-    pw = 'mqvg dtoa scqy etgh'
-    user = 'ananypravin2004@gmail.com'
-    receiver = 'ananypravin2004n@gmail.com'
+    pw = '********'
+    user = '********'
+    receiver = '********'
     final_set = log()
     email_sender = user
     email_password = pw
